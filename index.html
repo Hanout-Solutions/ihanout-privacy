@@ -11,7 +11,8 @@
     header h1 { font-size: 1.6em; color: #C8922A; }
     header p { font-size: 0.9em; margin-top: 0.3em; opacity: 0.8; }
     .tabs { display: flex; justify-content: center; gap: 0; background: #1A1A2E; padding-bottom: 0; }
-    .tab-btn { padding: 0.7em 2.5em; border: none; cursor: pointer; font-size: 1em; font-weight: 600; background: #2e2e4e; color: #aaa; border-radius: 8px 8px 0 0; transition: all 0.2s; }
+    .tab-btn { padding: 0.7em 2.5em; border: none; cursor: pointer; font-size: 1em; font-weight: 600; background: #2e2e4e; color: #aaa; border-radius: 8px 8px 0 0; transition: all 0.2s; outline: none; }
+    .tab-btn:focus-visible { outline: 2px solid #C8922A; outline-offset: 2px; }
     .tab-btn.active { background: #F5F0E8; color: #1A1A2E; }
     .content { max-width: 780px; margin: 0 auto; padding: 2em 1.5em; }
     .tab-panel { display: none; }
